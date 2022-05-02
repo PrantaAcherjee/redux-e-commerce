@@ -22,7 +22,7 @@ const ProductPage = () => {
 
   console.log("Products :", products);
   return (
-    <div className="ui grid container">
+    <div style={{margin:'10px 0'}} className="ui grid container">
       <ProductComponent />
     </div>
   );
